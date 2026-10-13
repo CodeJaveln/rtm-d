@@ -1,0 +1,7 @@
+name "rtm"
+description "A project fetcher with tags."
+authors "Simon Malmqvist"
+copyright "Copyright © 2026, Simon Malmqvist"
+license "MIT"
+targetPath "bin"
+targetName "rtm"
