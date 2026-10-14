@@ -12,6 +12,7 @@ Commands:
   help             Print usage and exit.
 ";
 
+string projectName = "RTM";
 string versionNumber = "0.0.0";
 
 void printUsage(File f) {
@@ -19,7 +20,8 @@ void printUsage(File f) {
 }
 
 void printVersion() {
-    versionNumber.writeln;
+    //Added by AdrianKingen07 formatting the string epicly
+    writefln("%s %s", projectName, versionNumber);
 }
 
 string getConfigPath() {
