@@ -12,8 +12,8 @@ Commands:
   help             Print usage and exit.
 ";
 
-string projectName = "RTM";
-string versionNumber = "0.0.0";
+enum projectName = "rtm";
+enum versionNumber = "0.0.0";
 
 void printUsage(File f) {
     f.writeln(usage);

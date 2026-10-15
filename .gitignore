@@ -15,3 +15,4 @@ rtm-test-*
 *.o
 *.obj
 *.lst
+rtm
